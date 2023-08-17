@@ -1,0 +1,259 @@
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 26px;
+}
+
+h4{
+  font-size:22px;
+}
+
+h5{
+  font-size: 20px;
+}
+
+
+body {
+  font-family: Quicksand, "sans-serif";
+}
+
+.anchor {
+  display: block;
+  height: 80px;
+  /*same height as header*/
+  margin-top: -80px;
+  /*same height as header*/
+  visibility: hidden;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #FFF5EE;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+header .logo-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+header .logo-container img{
+  width: 38px;
+  height: 38px;
+}
+
+header nav ul{
+  display: flex;
+  column-gap: 28px;
+}
+
+header nav li a:hover{
+  color: grey;
+}
+
+.banner-section{
+  display: flex;
+  gap:0;
+  /* height: calc(100vh - 80px); */
+  padding-top: 80px;
+}
+
+.banner{
+  width: 756px;
+  height: calc(100vh - 80px);
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: bottom;
+  /* transform: scale(0.8); */
+}
+
+.sign-up-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  gap: 20px;
+}
+
+.sign-up-section .logo-container{
+  display: flex;
+  gap: 10px;
+}
+
+.sign-up-section .logo-container img{
+  width: 40px;
+  height: 40px;
+}
+.sign-up-section .info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  gap: 30px;
+}
+.sign-up-section .info-container h4{
+  font-weight: 300;
+  color: #79726A;
+}
+
+.sign-up-section .info-container button{
+  background-color: #FFF5EE;
+  border-radius: 10px;
+  box-shadow: -5px 5px 10px #E7DCD4;
+  color: #79726A;
+  border: none;
+  width: 70%;
+  padding: 10px;
+  font-size: 26px;
+  transition: 1s;
+}
+
+.sign-up-section .info-container button:hover{
+  opacity: 0.8;
+  color: black;
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.work-details-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 50px;
+}
+
+.details-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px 100px;
+  flex-wrap: wrap;
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 450px;
+  width: 300px;
+  padding: 30px;
+  background-color: rgba(255, 245, 238, 0.8);
+  box-shadow: -5px 5px 10px #E7DCD4;
+  border-radius: 10px;
+}
+
+.detail .info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 70%;
+  line-height: 1.2;
+}
+
+.detail img{
+  width: 150px;
+  height: 150px;
+}
+
+.volunteers-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 70%;
+  gap: 50px;
+}
+
+.volunteers-container{
+  display: flex;
+  column-gap:100px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.volunteer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.volunteer img{
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer{
+  background-color: #FFF5EE;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+footer .logo-container{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .logo-container img{
+  width: 38px;
+  height: 38px;
+}
+
+.contact-info-container{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-info-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.socials-container{
+  display: flex;
+  gap: 20px;
+}
+
+.socials-container img{
+  width: 60px;
+  height: 60px;
+}
+
+.socials-container img:hover{
+  transform: scale(1.1);
+}
